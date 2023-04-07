@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #141519;
+  font-size: 15px;
+  height: 100vh;
+}
+.container {
+  background-color: #1f2630;
+  width: 27%;
+  height: max-content;
+  margin: auto;
+  padding: 30px;
+  border-radius: 25px;
+}
+main {
+  height: 100vh;
+  padding-block-start: 25vh;
+}
+.main-box img {
+  background-color: #25323b;
+  padding: 15px;
+  border-radius: 50%;
+  margin-block-end: 20px;
+}
+.main-box h1 {
+  color: #fff;
+  margin-block-end: 15px;
+}
+.main-box p {
+  color: #747b85;
+  line-height: 1.6em;
+  width: 100%;
+  margin-block-end: 25px;
+}
+
+.rating-box li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #262f38;
+  border-radius: 50%;
+  color: #576069;
+  font-weight: 700;
+}
+.rating-box li:hover {
+  cursor: pointer;
+  background-color: #fc7613;
+  color: #fff;
+}
+.rating-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 25px;
+}
+.submit {
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  color: #fff;
+  background-color: #fc7613;
+  border: none;
+}
+.submit:hover,
+.submit:active {
+  color: #fc7613;
+  background-color: #fff;
+  cursor: pointer;
+}
+.thank-you {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.thank-you img {
+  width: 45%;
+  margin: auto;
+  margin-block-start: 20px;
+  margin-block-end: 30px;
+}
+.thank-you p {
+  line-height: 1.3em;
+  color: #828993;
+}
+p.status {
+  background-color: #262e39;
+  color: #fc7613;
+  width: fit-content;
+  margin: auto;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-block-end: 35px;
+}
+
+.thank-you h1 {
+  color: #fff;
+  margin-block-end: 15px;
+}
+.thank-you p:nth-of-type(3) {
+  width: 85%;
+  margin: auto;
+  display: contents;
+}
+.thank-you p:nth-of-type(2) {
+  width: 100%;
+}
+.active {
+  background-color: #7c8898 !important;
+  color: #fff !important;
+}
+@media (max-width: 950px) {
+  .container {
+    background-color: #1f2630;
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    padding: 30px;
+    border-radius: 25px;
+  }
+  main {
+    height: 100vh;
+    padding-block-start: 25vh;
+  }
+  .thank-you p:nth-of-type(2),
+  .thank-you p:nth-of-type(3) {
+    display: contents;
+    width: 100%;
+  }
+  .thank-you img {
+    width: 48%;
+  }
+}
