@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-rating-page-built-with-html5-css3-and-javascript-eEs1iiwy-o)
+- Live Site URL: [Live Site](https://ganbnuray.github.io/Interactive-rating-component/)
 
 ### Built with
 
